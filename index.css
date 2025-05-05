@@ -1,0 +1,138 @@
+  *{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-color: black;
+  box-sizing: border-box;
+  color: rgb(228, 222, 214);
+  margin: 0;
+}
+nav{
+  padding: 30px;
+  box-sizing: border-box;
+  height: 90px;
+}
+
+nav p{
+  position: absolute;
+  font-size: 50px;
+  text-shadow: 3px 3px 3px#fff;
+  margin: -15px 20px;
+
+}
+.list { 
+  display: flex;
+  align-content: center;
+  float: right;
+  gap:80px;
+  margin-right: 35%;
+  text-decoration: none;
+}
+
+.list li {
+  list-style-type: none;
+  font-size: 28px;}
+.list li a{
+  text-decoration: 
+  none;
+  color:#fff;
+
+}
+hr{
+  box-shadow: 3px 3px 3px 3px ;
+}
+.profile img{
+  position: absolute;
+  translate: 400px;
+  height: 250px;
+  transition: 2s linear; 
+  border-radius: 50%;
+
+}
+
+
+.nav-btn{
+ position: absolute;
+ right: 100px;
+ padding: 10px;
+}
+.content{
+  translate: 30px 40px;
+  width: 300px;
+  border: 0.2px  solid #fff;
+  transition: 2s linear;
+  padding: 10px;
+ 
+}
+
+
+.h-btn{
+  position: absolute;
+  border-radius: 9px;
+  font-size: 16px;
+  padding: 4px;
+  width: 100px;
+  translate: -8px 60px;
+}
+.container{
+  
+  width: 600px;
+  height: 300px;
+  translate: 500px 28px;
+  box-shadow: 3px 3px 3px 5px #fff;
+}
+
+.about-me{
+  position: relative;
+  border: 1px solid #fff;
+  width: 60%;
+  left:15em;
+  padding: 0 10px;
+  font-size: 18px;
+  text-align: center;
+  margin: 50px;
+}
+h2{
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+ #skills{
+  text-align: center;
+ 
+}
+.skills{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left:15em;
+  gap: 30px;
+  border: 1px solid #1f1d1d;
+  width: 80%;
+  padding: 10px;
+  
+}
+.skills img{
+  width: 40px;
+  height: 30px;
+  margin: 5px;
+}
+.skills div{
+  
+  height: 20%;
+  box-shadow: 3px 3px 3px 3px #171616;
+}
+.skills div{
+  margin: 50px;
+}
+.footer{
+  width: 500px;
+  height: 10px;
+ 
+
+}
+.footer p{
+  position:relative;
+  margin: 25em 40px;
+} 
